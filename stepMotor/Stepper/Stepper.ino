@@ -9,7 +9,7 @@ const int passosPorGiro = 64;
 
 Stepper mp(passosPorGiro,e1,e3,e2,e4);
 void setup() {
- mp.setSpeed(255);
+ mp.setSpeed(500);
 }
 
 void loop() {
